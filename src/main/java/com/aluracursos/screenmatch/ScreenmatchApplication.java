@@ -35,7 +35,7 @@ public class ScreenmatchApplication  implements CommandLineRunner {
 		json = consumoApi.obtenerDatos("https://www.omdbapi.com/?t=game+of+thrones&Season=1&episode=1&apikey=6e942bb9");
 		DatosEpisodio episodios = conversor.obtenerDatos(json, DatosEpisodio.class);
 		System.out.println(episodios);
-             */
+           */
 
 		Principal principal = new Principal();
 		principal.muestraElMenu();
